@@ -2,11 +2,11 @@ name: penghijauan
 
 on:
   schedule:
-    - cron: '0 11 * * *'
     - cron: '0 2 * * *'
     - cron: '0 5 * * *'
     - cron: '0 8 * * *'
     - cron: '0 11 * * *'
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 jobs:
